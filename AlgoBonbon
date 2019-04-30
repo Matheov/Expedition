@@ -1,0 +1,6 @@
+Début  AchatBonbon  (réel prixbonbon, réel argent)
+
+   entier bonbon ← argent/prixbonbon
+   retourner bonbon
+   
+Fin AchatBonbon
