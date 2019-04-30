@@ -1,6 +1,10 @@
 Début  AchatBonbon  (réel prixbonbon, réel argent)
 
-   entier bonbon ← argent/prixbonbon
-   retourner bonbon
+    si prixbonbon > 0 et argent > 0 
+        tant que argent > prixbonbon
+           entier bonbon ← bonbon + 1
+           argent ← argent - prixbonbon
+           
+    retourner bonbon
    
 Fin AchatBonbon
